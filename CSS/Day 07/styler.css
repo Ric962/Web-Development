@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* span{
+    color: blue;
+} */
+
+h1 {
+    background-color: teal;
+    /* display: inline;
+    height: 200px; */
+
+    /* display: inline-block;
+    height: 200px;
+    width: 200px; */
+}
+
+h2 {
+    background-color: aquamarine;
+    /* display: inline-block;
+    height: 200px;
+    width: 200px; */
+}
+
+span {
+    background-color: aqua;
+    /* display: block; */
+}
