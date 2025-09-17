@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 400px;
+    width: 600px;
+    background-color: #FECC02;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+   
+}
+
+.first{
+    background-color: #006AA7;
+}
+
+.second{
+    background-color: #006AA7;
+}
+
+.third{
+    background-color: #006AA7;
+}
+
+.fourth{
+    background-color: #006AA7;
+}

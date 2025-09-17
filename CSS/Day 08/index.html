@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Position Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CSS Position Demo</h1>
+  
+  <div class="container">
+    <div class="row">
+      <div class="box static">Static</div>
+      <p class="explain">Default position (normal document flow, no special behavior).</p>
+    </div>
+
+    <div class="row">
+      <div class="box relative">Relative</div>
+      <p class="explain">Moves relative to its normal position using <code>top</code>, <code>left</code>, etc.</p>
+    </div>
+
+    <div class="row">
+      <div class="box absolute">Absolute</div>
+      <p class="explain">Positioned relative to the nearest ancestor with <code>position: relative</code>.</p>
+    </div>
+
+    <div class="row">
+      <div class="box sticky">Sticky</div>
+      <p class="explain">Acts like relative until scrolled, then it “sticks” to the defined edge (e.g. top).</p>
+    </div>
+  </div>
+
+  <p>Scroll down to see the <b>sticky</b> element in action and the <b>fixed</b> element stay in place.</p>
+
+  <div style="height: 800px;"></div>
+
+  <div class="row">
+    <div class="box fixed">Fixed</div>
+    <p class="explain">Always stays in the same place relative to the viewport, even when scrolling.</p>
+  </div>
+</body>
+</html>

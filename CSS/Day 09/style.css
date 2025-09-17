@@ -1,0 +1,47 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 5px;
+
+}
+
+/* 
+flex-direction: row->main axis by default
+if col then it becomes main axis */
+
+/* justify content works around main axis
+main axis decides the properties like space-between */
+
+/* align intems work around cross axis */
+
+.box{
+    height: 100px;
+    width: 100px;
+    /* margin: 5px; */
+}
+
+.first{
+    background-color: orange;
+    /* flex-grow: 1; */
+}
+
+.second{
+    background-color: green;
+    /* flex-shrink: 4; */
+    /* flex-basis: 200px; */
+}
+
+.third{
+    background-color: red;
+    align-self: flex-start;
+
+}
+
+.fourth{
+    background-color: coral;
+}
